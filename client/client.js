@@ -1,8 +1,8 @@
 this.App = {};
 this.Helpers = {};
-
+// just for commit
 Meteor.startup(function() {
-	
+
 });
 
 this.menuItemClass = function(routeName) {
