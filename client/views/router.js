@@ -23,6 +23,6 @@ Router.onBeforeAction(function() {
 });
 
 Router.map(function () {
-	this.route("about", {path: "/about", controller: "AboutController"});
+	this.route("about", {path: "/admin_page/add_pdf", controller: "PdfController"});
 	this.route("home", {path: "/", controller: "HomeController"});
 });

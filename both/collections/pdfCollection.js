@@ -24,7 +24,12 @@ pdf = new SimpleSchema({
         type:Number,
         label:"عدد المشاهدات",
         optional:true
-    }
+    },
+    link:{
+        type:String,
+        label:"رابط الدرس",
+        
+       }
 });
 
 

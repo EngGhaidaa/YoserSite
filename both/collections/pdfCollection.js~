@@ -1,5 +1,5 @@
 // Define the schema
-Pdf = new SimpleSchema({
+pdf = new SimpleSchema({
     title: {
         type: String,
         label: "اسم الملف",
@@ -24,6 +24,16 @@ Pdf = new SimpleSchema({
         type:Number,
         label:"عدد المشاهدات",
         optional:true
+    },
+    link:{
+        type:String,
+        label:"حمل الملف",
+        autoform:{
+             afFieldInput:{
+               type:'fileUpload',
+                label:"التحميل"
+                 }
+             }        
     }
 });
 

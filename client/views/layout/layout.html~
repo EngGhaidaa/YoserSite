@@ -24,7 +24,7 @@
 						<span class="icon-bar">
 						</span>
 					</button>
-					<a class="navbar-brand" href="/about">
+					<a class="navbar-brand" href="/admin_page/add_pdf">
 						موقع اليسر للارتقاء الهندسي
 					</a>
 				</div>
@@ -65,21 +65,21 @@
 			</a>
 		</li>
 		<li id="menu-item-simple" class="">
-			<a href="#section2">
+			<a href="/#section2">
 				<span class="item-title">
 					Section 2
 				</span>
 			</a>
 		</li>
 		<li id="menu-item-simple" class="">
-			<a href="#section3">
+			<a href="/#section3">
 				<span class="item-title">
 					Section 3
 				</span>
 			</a>
 		</li>
 		<li id="menu-item-simple" class="">
-			<a href="#section-contact">
+			<a href="/#section-contact">
 				<span class="item-title">
 					Contact
 				</span>

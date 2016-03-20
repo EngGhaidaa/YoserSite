@@ -34,3 +34,5 @@ reactive-dict
 aldeed:simple-schema
 aldeed:collection2
 iron:router
+cfs:standard-packages
+aldeed:autoform
