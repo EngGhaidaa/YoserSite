@@ -1,7 +1,7 @@
 this.App = {};
 this.Helpers = {};
 // just for commit
-///ghaidaa
+//ghaidaa
 Meteor.startup(function() {
 
 });
