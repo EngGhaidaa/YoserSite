@@ -1,3 +1,4 @@
+//ghaidaa
 Template.layout.rendered = function() {
 	// scroll to anchor
 	$('body').on('click', 'a', function(e) { 
