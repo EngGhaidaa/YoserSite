@@ -18,7 +18,7 @@ h3 a, h3 a:hover,
 h4 a, h4 a:hover,
 h5 a, h5 a:hover,
 h6 a, h6 a:hover {
-	text-decoration: right;
+	text-decoration: none;
 }
 
 /* Wrapper for page content to push down footer */

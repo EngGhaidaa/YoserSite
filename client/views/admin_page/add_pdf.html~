@@ -1,4 +1,5 @@
 <template name="addpdf">
+<br><br>
 <div class="col-md-3">
  {{#autoForm collection="Pdfs" id="insertPdfForm" type="insert"}}
     <fieldset>

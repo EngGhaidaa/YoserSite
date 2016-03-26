@@ -2,12 +2,13 @@
 pdf = new SimpleSchema({
     title: {
         type: String,
-        label: "اسم الملف",
+        label: "عنوان الدرس",
         max: 200
     },
     author: {
         type: String,
-        label: "اسم الكاتب"
+        label: "اسم الكاتب",
+         defaultValue:"المهندس أحمد"
     },
     lastCheckedOut: {
         type: Date,
@@ -28,14 +29,30 @@ pdf = new SimpleSchema({
     link:{
         type:String,
         label:"رابط الدرس",
-        
+        autoform:
+         {
+            afFieldInput:
+                  { 
+                 type:"url"
+                    }        
        }
+}
 });
 
 
 Pdfs = new Mongo.Collection("pdfs");
 Pdfs.attachSchema(pdf);
 
+
+
+
+Pdfs.allow({
+
+  insert: function (doc) {
+    return true;
+  }
+
+});
 
 
 
