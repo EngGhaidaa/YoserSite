@@ -1,6 +1,6 @@
 .jumbotron {
 	text-align: center;
-	color: white;
+	color: black;
 }
 
 .jumbotron h1 {
@@ -30,4 +30,17 @@ section h1 {
 
 section .large-icon {
 	font-size: 72px;
+}
+
+
+body{
+direction: rtl;
+}
+html{
+	direction: rtl;
+}
+
+.col-md-3{
+direction:rtl;
+ float: right;
 }

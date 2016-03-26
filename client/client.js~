@@ -1,8 +1,11 @@
 this.App = {};
 this.Helpers = {};
 // just for commit
-//<<<<<<< HEAD
-//>>>>>>> 9152c2fc73f4e64c560db63465ea580ebbf3ba10
+<<<<<<< HEAD
+//ghaidaa
+=======
+///nama
+>>>>>>> 9152c2fc73f4e64c560db63465ea580ebbf3ba10
 Meteor.startup(function() {
 
 });

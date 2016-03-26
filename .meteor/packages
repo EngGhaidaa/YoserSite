@@ -36,3 +36,8 @@ aldeed:collection2
 iron:router
 cfs:standard-packages
 aldeed:autoform
+aldeed:autoform-bs-datepicker
+twbs:bootstrap
+juliancwirko:s-alert
+juliancwirko:s-alert-genie
+alonw:bootstrap-rtl
