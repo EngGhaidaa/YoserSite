@@ -2,7 +2,6 @@ this.App = {};
 this.Helpers = {};
 // just for commit
 ///nama
-///
 Meteor.startup(function() {
 
 });
