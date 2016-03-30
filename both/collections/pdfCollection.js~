@@ -1,4 +1,4 @@
-// Define the schema
+// Define the schema//
 pdf = new SimpleSchema({
     title: {
         type: String,
@@ -46,7 +46,7 @@ Pdfs.attachSchema(pdf);
 
 
 
-pdfs.allow({
+Pdfs.allow({
 
   insert: function (doc) {
     return true;

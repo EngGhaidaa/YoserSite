@@ -1,4 +1,4 @@
-// Define the schema
+// Define the schema//
 pdf = new SimpleSchema({
     title: {
         type: String,
