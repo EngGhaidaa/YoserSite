@@ -49,6 +49,8 @@ Pdfs.allow
        return true;
  }
 });
+
+
    // update: function (userId, doc, fields, modifier) {
      //   return true;
     //},
