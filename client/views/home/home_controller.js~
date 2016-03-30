@@ -44,4 +44,4 @@ waitOn:function(){
 	return Meteor.subscribe('pdfs');
 }
 });
-
+});

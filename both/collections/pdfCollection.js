@@ -29,12 +29,32 @@ pdf = new SimpleSchema({
         type:String,
         label:"رابط الدرس",
         
+       },
+
+     typeTest: {
+       	type: String,
+       	optional:true,
+       	autoform: {
+       		afFieldInput: {
+       		type: "url"
+       	}
+       } 
        }
+
 });
 
 
 Pdfs = new Mongo.Collection("pdfs");
 Pdfs.attachSchema(pdf);
+Pdfs.allow
+
+({
+	insert: function (doc)
+{
+	return true;
+}
+});
+
 
 
 

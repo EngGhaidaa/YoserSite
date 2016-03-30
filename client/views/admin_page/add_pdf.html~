@@ -8,8 +8,10 @@
       {{> afQuickField name='summary' rows=6}}
      
       {{> afQuickField name='link'}}
+
      
        </fieldset>
+	{{> quickForm id="types1" schema=pdf}}
     <button type="submit" class="btn btn-primary">إدخال</button>
   {{/autoForm}}
 </div>
@@ -17,4 +19,4 @@
 
 
 
-</template>
+</template> 
