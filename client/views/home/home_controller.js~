@@ -39,9 +39,5 @@ this.HomeController = RouteController.extend({
 
 	onAfterAction: function() {
 		
-	},
-waitOn:function(){
-    return Meteor.subscribe('pdfs');
-      
-  }
+	}
 });

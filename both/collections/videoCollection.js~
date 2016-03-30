@@ -1,13 +1,14 @@
 // Define the schema
-Pdf = new SimpleSchema({
+vedio = new SimpleSchema({
     title: {
         type: String,
-        label: "اسم الملف",
+        label: "عنوان الدرس",
         max: 200
     },
     author: {
         type: String,
-        label: "اسم الكاتب"
+        label: "اسم الكاتب",
+         defaultValue:"المهندس أحمد"
     },
     lastCheckedOut: {
         type: Date,
@@ -24,14 +25,34 @@ Pdf = new SimpleSchema({
         type:Number,
         label:"عدد المشاهدات",
         optional:true
-    }
+    },
+    link:{
+        type:String,
+        label:"رابط الدرس",
+        autoform:
+         {
+            afFieldInput:
+                  { 
+                 type:"url"
+                    }        
+       }
+}
 });
 
 
-Pdfs = new Mongo.Collection("pdfs");
-Pdfs.attachSchema(Pdf);
+Vedios = new Mongo.Collection("vedios");
+Vedios.attachSchema(vedio);
 
 
+
+
+Vedios.allow({
+
+  insert: function (doc) {
+    return true;
+  }
+
+});
 
 
 

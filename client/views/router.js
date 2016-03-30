@@ -24,5 +24,6 @@ Router.onBeforeAction(function() {
 
 Router.map(function () {
 	this.route("about", {path: "/admin_page/add_pdf", controller: "PdfController"});
+        //this.route("about", {path: "/admin_page/add_vedio", controller: "VedioController"}); 
 	this.route("home", {path: "/", controller: "HomeController"});
 });

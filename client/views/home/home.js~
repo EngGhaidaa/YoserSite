@@ -194,4 +194,4 @@ Template.HomeSection2Content2.helpers({
         "pdf": function () {
                 return Pdfs.find();
           }
-});
+)};

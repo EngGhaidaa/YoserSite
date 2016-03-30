@@ -1,0 +1,21 @@
+<template name="addvedio">
+<br><br>
+<div class="col-md-3">
+ {{#autoForm collection="Vedio" id="insertVedioForm" type="insert"}}
+    <fieldset>
+      <legend>إضافة فيديو</legend>
+      {{> afQuickField name='title'}}
+      {{> afQuickField name='author'}}
+      {{> afQuickField name='summary' rows=6}}
+     
+      {{> afQuickField name='link' schema=pdf}}
+     
+       </fieldset>
+    <button type="submit" class="btn btn-primary">إدخال</button>
+  {{/autoForm}}
+</div>
+
+
+
+
+</template>
