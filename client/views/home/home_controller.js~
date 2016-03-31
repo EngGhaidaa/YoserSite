@@ -39,20 +39,23 @@ this.HomeController = RouteController.extend({
 
 	onAfterAction: function() {
 		
-<<<<<<< oula
-=======
-<<<<<<< HEAD
-	}
-});
-=======
->>>>>>> local
 	},
 waitOn:function(){
+//<<<<<<< oula
 	return Meteor.subscribe('pdfs');
 }
 });
+
+//=======
+//<<<<<<< HEAD
+    return Meteor.subscribe('pdfs');
+      
+  }
 });
-<<<<<<< oula
 =======
+	return Meteor.subscribe('pdfs');
+}
+});
+
 >>>>>>> oula
 >>>>>>> local

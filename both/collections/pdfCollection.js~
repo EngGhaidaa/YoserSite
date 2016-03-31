@@ -8,6 +8,7 @@ pdf = new SimpleSchema({
     author: {
         type: String,
         label: "اسم الكاتب"
+	defaultValue:"المهندس أحمد"
     },
     lastCheckedOut: {
         type: Date,
@@ -38,6 +39,7 @@ pdf = new SimpleSchema({
                   }        
       }
 }
+});
 
 
 Pdfs = new Mongo.Collection("pdfs");
@@ -55,10 +57,5 @@ Pdfs.allow
 
 //>>>>>>> local
 
-({
-	insert: function (doc)
-{
-	return true;
-}
-});
+
 

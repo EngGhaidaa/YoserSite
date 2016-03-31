@@ -41,21 +41,21 @@ this.HomeController = RouteController.extend({
 		
 	},
 waitOn:function(){
-<<<<<<< oula
+//<<<<<<< oula
 	return Meteor.subscribe('pdfs');
 }
 });
 
-=======
-<<<<<<< HEAD
-    return Meteor.subscribe('pdfs');
+//=======
+//<<<<<<< HEAD
+//    return Meteor.subscribe('pdfs');
       
-  }
-});
-=======
-	return Meteor.subscribe('pdfs');
-}
-});
+  //}
+//});
+//=======
+//	return Meteor.subscribe('pdfs');
+//}
+//});
 
->>>>>>> oula
->>>>>>> local
+//>>>>>>> oula
+//>>>>>>> local
