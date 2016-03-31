@@ -8,6 +8,7 @@ pdf = new SimpleSchema({
     author: {
         type: String,
         label: "اسم الكاتب"
+	defaultValue:"المهندس أحمد"
     },
     lastCheckedOut: {
         type: Date,
@@ -28,54 +29,24 @@ pdf = new SimpleSchema({
     link:{
         type:String,
         label:"رابط الدرس",
-<<<<<<< oula
-        
-       },
 
-     typeTest: {
-       	type: String,
-       	optional:true,
-       	autoform: {
-       		afFieldInput: {
-       		type: "url"
-       	}
-       } 
-       }
-
-=======
-<<<<<<< HEAD
-        autoform:
+//<<<<< HEAD
+	autoform:
          {
             afFieldInput:
-                  { 
-                 type:"url"
-                    }        
-       }
+                 { 
+               type:"url"
+                  }        
+      }
 }
-=======
-        
-       },
-
-     typeTest: {
-       	type: String,
-       	optional:true,
-       	autoform: {
-       		afFieldInput: {
-       		type: "url"
-       	}
-       } 
-       }
-
->>>>>>> oula
->>>>>>> local
 });
 
 
 Pdfs = new Mongo.Collection("pdfs");
 Pdfs.attachSchema(pdf);
 Pdfs.allow
-<<<<<<< oula
-=======
+//<<<<<<< oula
+//=======
 
 ({
 	insert: function (doc)
@@ -84,18 +55,7 @@ Pdfs.allow
 }
 });
 
->>>>>>> local
-
-({
-	insert: function (doc)
-{
-	return true;
-}
-});
-
-
-
-
+//>>>>>>> local
 
 
 
