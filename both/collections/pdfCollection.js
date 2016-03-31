@@ -28,6 +28,7 @@ pdf = new SimpleSchema({
     link:{
         type:String,
         label:"رابط الدرس",
+<<<<<<< oula
         
        },
 
@@ -41,12 +42,49 @@ pdf = new SimpleSchema({
        } 
        }
 
+=======
+<<<<<<< HEAD
+        autoform:
+         {
+            afFieldInput:
+                  { 
+                 type:"url"
+                    }        
+       }
+}
+=======
+        
+       },
+
+     typeTest: {
+       	type: String,
+       	optional:true,
+       	autoform: {
+       		afFieldInput: {
+       		type: "url"
+       	}
+       } 
+       }
+
+>>>>>>> oula
+>>>>>>> local
 });
 
 
 Pdfs = new Mongo.Collection("pdfs");
 Pdfs.attachSchema(pdf);
 Pdfs.allow
+<<<<<<< oula
+=======
+
+({
+	insert: function (doc)
+{
+	return true;
+}
+});
+
+>>>>>>> local
 
 ({
 	insert: function (doc)

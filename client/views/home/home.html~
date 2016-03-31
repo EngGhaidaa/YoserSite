@@ -112,9 +112,22 @@ Usu ne magna putant utroque, quot vidit sit ex. Sit ne corpora placerat periculi
 <template name="HomeSection2Content2">
 	{{#markdown}}
 <h1 id="section2">PDF</h1>
+<<<<<<< oula
 	{{#each pdfs}}
 		{{title}}
 	{{/each}}
+=======
+<<<<<<< HEAD
+        {{#each pdf}}
+             {{title}}<br>
+         {{/each}}
+
+=======
+	{{#each pdfs}}
+		{{title}}
+	{{/each}}
+>>>>>>> oula
+>>>>>>> local
 {{/markdown}}
 </template>
 
