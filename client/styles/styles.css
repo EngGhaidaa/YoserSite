@@ -31,3 +31,12 @@ section h1 {
 section .large-icon {
 	font-size: 72px;
 }
+body{
+direction: rtl;
+}
+html{
+direction: rtl;
+}
+.col_md-3{
+float: right;
+}

@@ -7,8 +7,8 @@ pdf = new SimpleSchema({
     },
     author: {
         type: String,
-        label: "اسم الكاتب"
-	defaultValue:"المهندس أحمد"
+        label: "اسم الكاتب",
+	defaultValue: "المهندس أحمد"
     },
     lastCheckedOut: {
         type: Date,
@@ -30,7 +30,7 @@ pdf = new SimpleSchema({
         type:String,
         label:"رابط الدرس",
 
-//<<<<< HEAD
+
 	autoform:
          {
             afFieldInput:
@@ -45,8 +45,7 @@ pdf = new SimpleSchema({
 Pdfs = new Mongo.Collection("pdfs");
 Pdfs.attachSchema(pdf);
 Pdfs.allow
-//<<<<<<< oula
-//=======
+
 
 ({
 	insert: function (doc)
@@ -55,7 +54,7 @@ Pdfs.allow
 }
 });
 
-//>>>>>>> local
+
 
 
 

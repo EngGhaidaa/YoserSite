@@ -6,12 +6,14 @@
       {{> afQuickField name='title'}}
       {{> afQuickField name='author'}}
       {{> afQuickField name='summary' rows=6}}
-     
-      {{> afQuickField name='link'}}
+    
+      {{> afQuickField name='link' schema=pdf}}
 
+//>>>>>>> oula
+//>>>>>>> local
      
        </fieldset>
-	{{> quickForm id="types1" schema=pdf}}
+	
     <button type="submit" class="btn btn-primary">إدخال</button>
   {{/autoForm}}
 </div>

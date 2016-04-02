@@ -7,8 +7,8 @@ pdf = new SimpleSchema({
     },
     author: {
         type: String,
-        label: "اسم الكاتب"
-	defaultValue:"المهندس أحمد"
+        label: "اسم الكاتب",
+	defaultValue: "المهندس أحمد"
     },
     lastCheckedOut: {
         type: Date,

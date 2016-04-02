@@ -189,14 +189,7 @@ Template.HomeSectionContactContact.helpers({
 		return pageSession.get("homeSectionContactContactErrorMessage");
 	}
 });
-<<<<<<< oula
-=======
-Template.HomeSection2Content2.helpers({
-	'pdf': function (){
-		return Pdfs.find();}
-});
 
->>>>>>> local
 Template.HomeSection2Content2.helpers({
 	'pdf': function (){
 		return Pdfs.find();}
