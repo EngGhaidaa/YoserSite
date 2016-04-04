@@ -18,7 +18,7 @@ section {
 }
 
 section.bg-blue {
-	color: #fff;
+	color: #ffffff;
 	background-color: #337ab7;	
 }
 
@@ -41,6 +41,9 @@ html{
 }
 
 .col-md-3{
-direction:rtl;
+
  float: right;
+}
+#section-welcome{
+	color: #d9534f;
 }

@@ -11,7 +11,7 @@
 </template>
 
 <template name="HomeJumbotron">
-	<div class="jumbotron " style="background-image: url('/images/jumbotron-bg.png');">
+	<div class="jumbotron " style="background-image: url('/images/home.jpg');">
 		<div id="content" class="container">
 			<p id="jumbotron-text">
 			</p>
@@ -23,9 +23,10 @@
 <template name="HomeJumbotronJumbotronContent">
 <div class="text-center">
 	<h1 id="section-welcome">
-		اليسر للارتقاء الهندسي
+موقع اليسر للارتقاء الهندسي
 	</h1>
 </div>
+
 </template>
 
 <template name="HomeSection1" id="section1">
@@ -113,7 +114,8 @@ Usu ne magna putant utroque, quot vidit sit ex. Sit ne corpora placerat periculi
 	{{#markdown}}
 <h1 id="section2">PDF</h1>
         {{#each pdf}}
-            {{title}}    
+<br>
+            <a href="{{pathFor 'pdf' id=_id}}">{{title}}</a>    
         {{/each}}
 {{/markdown}}
 </template>

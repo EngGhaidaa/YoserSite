@@ -8,7 +8,9 @@ Router.configure({
 
 var freeRoutes = [
 	"home",
-        "about"
+        "about",
+        "pdf"
+
 ];
 
 Router.onBeforeAction(function() {
@@ -25,4 +27,5 @@ Router.onBeforeAction(function() {
 Router.map(function () {
 	this.route("about", {path: "/admin_page/add_pdf", controller: "PdfController"});
 	this.route("home", {path: "/", controller: "HomeController"});
+        this.route("pdf",{path:"/pdf",controller:"PdfController"});
 });

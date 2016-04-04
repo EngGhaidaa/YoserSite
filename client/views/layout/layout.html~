@@ -24,7 +24,7 @@
 						<span class="icon-bar">
 						</span>
 					</button>
-					<a class="navbar-brand" href="{{pathfor 'about'}}">
+					<a class="navbar-brand" href="{{pathFor 'about'}}">
 						موقع اليسر للارتقاء الهندسي
 					</a>
 				</div>

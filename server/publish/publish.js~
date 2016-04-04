@@ -1,4 +1,7 @@
 Meteor.publish('pdfs',function(){
     return Pdfs.find();
+}),
+Meteor.publish('pdfdetails',function(){
+return Pdfs.findOne(_id:id)
 })
 
