@@ -1,0 +1,117 @@
+// Define the schema
+pdf = new SimpleSchema({
+    title: {
+        type: String,
+        label: "اسم الملف",
+        max: 200
+    },
+    author: {
+        type: String,
+<<<<<<< HEAD
+        label: "اسم الكاتب",
+        defaultValue:"المهندس أحمد"
+=======
+        label: "اسم الكاتب"
+	defaultValue:"المهندس أحمد"
+>>>>>>> oula
+    },
+    lastCheckedOut: {
+        type: Date,
+        label: "آخر تعديل",
+        optional: true
+    },
+    summary: {
+        type: String,
+        label: "حول الدرس",
+        optional: true,
+        max: 1000
+    },
+    views:{
+        type:Number,
+        label:"عدد المشاهدات",
+        optional:true
+    },
+    link:{
+        type:String,
+        label:"رابط الدرس",
+<<<<<<< HEAD
+        autoform:
+         {
+          afFieldInput:
+            {
+             type: "url"
+            }
+        }
+      }
+=======
+
+//<<<<< HEAD
+	autoform:
+         {
+            afFieldInput:
+                 { 
+               type:"url"
+                  }        
+      }
+}
+>>>>>>> oula
+});
+
+
+Pdfs = new Mongo.Collection("pdfs");
+Pdfs.attachSchema(pdf);
+Pdfs.allow
+<<<<<<< HEAD
+({
+  insert: function (doc)
+ {
+       return true;
+ }
+});
+
+
+   // update: function (userId, doc, fields, modifier) {
+     //   return true;
+    //},
+
+    //remove: function (userId, doc) {
+      //  return true;
+   // }
+
+//});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+//<<<<<<< oula
+//=======
+
+({
+	insert: function (doc)
+{
+	return true;
+}
+});
+>>>>>>> oula
+
+//>>>>>>> local
+
+
+

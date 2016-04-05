@@ -4,21 +4,24 @@
  {{#autoForm collection="Pdfs" id="insertPdfForm" type="insert"}}
     <fieldset>
       <legend>إضافة درس</legend>
-      {{> afQuickField name='title' lable="الاسم"}}
+
+      {{> afQuickField name='title' label="الاسم"}}
       {{> afQuickField name='author'}}
       {{> afQuickField name='summary' rows=6}}
-     
       {{> afQuickField name='link' schema=pdf}}
-     
-       </fieldset>
+     </fieldset>
+
+
     <button type="submit" class="btn btn-primary">إدخال</button>
 {{> sAlart}}
   {{/autoForm}}
 </div>
+
 <div class="row">
 {{#each pdfs}}
 {{title}}
 {{link}}
 {{/each}}
 </div>
-</template>
+</template> 
+

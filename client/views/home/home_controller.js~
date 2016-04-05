@@ -8,8 +8,9 @@ this.HomeController = RouteController.extend({
 
 	onBeforeAction: function() {
 		this.next();
-	},
 
+	},
+	
 	action: function() {
 		if(this.isReady()) { this.render(); } else { this.render("loading"); }
 		/*ACTION_FUNCTION*/
@@ -39,5 +40,31 @@ this.HomeController = RouteController.extend({
 
 	onAfterAction: function() {
 		
+	},
+waitOn:function(){
+//<<<<<<< HEAD
+//=======
+//<<<<<<< HEAD
+	return Meteor.subscribe('pdfs');
 	}
 });
+//=======
+//<<<<<<< oula
+	return Meteor.subscribe('pdfs');
+}
+});
+
+//=======
+//<<<<<<< HEAD
+//>>>>>>> ghaidaa
+    return Meteor.subscribe('pdfs');
+      
+  }
+});
+//<<<<<<< HEAD
+//=======
+//=======
+	return Meteor.subscribe('pdfs');
+}
+});
+

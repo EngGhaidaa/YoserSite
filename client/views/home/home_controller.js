@@ -8,8 +8,9 @@ this.HomeController = RouteController.extend({
 
 	onBeforeAction: function() {
 		this.next();
-	},
 
+	},
+	
 	action: function() {
 		if(this.isReady()) { this.render(); } else { this.render("loading"); }
 		/*ACTION_FUNCTION*/
@@ -41,7 +42,8 @@ this.HomeController = RouteController.extend({
 		
 	},
 waitOn:function(){
-    return Meteor.subscribe('pdfs');
-      
-  }
+
+	return Meteor.subscribe('pdfs');
+	}
 });
+

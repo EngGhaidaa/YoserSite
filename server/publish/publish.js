@@ -3,5 +3,6 @@ Meteor.publish('pdfs',function(){
 }),
 Meteor.publish('pdfdetail',function(id){
 return Pdfs.find({_id:id});
-})
+
+});
 

@@ -31,15 +31,28 @@ section h1 {
 section .large-icon {
 	font-size: 72px;
 }
+<<<<<<< HEAD
 .col-md-3 {
         float:right;
 }
 
-.col-md-3 {
+
+.col-md-5 {
         float:right;
 }
 
-.col-md-2 {
-        float:right;
+=======
+
+
+body{
+direction: rtl;
+}
+html{
+	direction: rtl;
 }
 
+.col-md-3{
+
+ float: right;
+}
+>>>>>>> ghaidaa
