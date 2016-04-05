@@ -191,7 +191,7 @@ Template.HomeSectionContactContact.helpers({
 });
 
 Template.HomeSection2Content2.helpers({
-	'pdf': function (){
-		return Pdfs.find();}
+        "pdf": function () {
+                return Pdfs.find();
+          }
 });
-

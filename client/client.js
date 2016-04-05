@@ -1,22 +1,7 @@
 this.App = {};
 this.Helpers = {};
 // just for commit
-//<<<<<<< HEAD
-///oula
-//=======
 ///nama
-//<<<<<<< oula
-//>>>>>>> f3de71809776007046c805ae2cd6ea26953e81e5
-//=======
-//<<<<<<< nama
-//=======
-//<<<<<<< oula
-//>>>>>>> f3de71809776007046c805ae2cd6ea26953e81e5
-//=======
-
-//>>>>>>> local
-//>>>>>>> local
-//>>>>>>> local
 Meteor.startup(function() {
 
 });
