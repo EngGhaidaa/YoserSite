@@ -36,9 +36,21 @@ aldeed:collection2
 iron:router
 cfs:standard-packages
 aldeed:autoform
+<<<<<<< oula
+=======
+<<<<<<< nama
+alonw:bootstrap-rtl
+=======
+<<<<<<< oula
+=======
+<<<<<<< nama
+=======
 aldeed:autoform-bs-datepicker
 twbs:bootstrap
 juliancwirko:s-alert
 juliancwirko:s-alert-genie
+>>>>>>> local
 alonw:bootstrap-rtl
-
+>>>>>>> local
+>>>>>>> local
+>>>>>>> local
