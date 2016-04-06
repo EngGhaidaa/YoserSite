@@ -31,17 +31,6 @@ section h1 {
 section .large-icon {
 	font-size: 72px;
 }
-<<<<<<< HEAD
-.col-md-3 {
-        float:right;
-}
-
-
-.col-md-5 {
-        float:right;
-}
-
-=======
 
 
 body{
@@ -55,4 +44,4 @@ html{
 
  float: right;
 }
->>>>>>> ghaidaa
+
