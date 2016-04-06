@@ -25,7 +25,12 @@ Router.onBeforeAction(function() {
 });
 
 Router.map(function () {
-	this.route("about", {path: "/admin_page/add_pdf", controller: "PdfController"});
-	this.route("home", {path: "/#section-welcome", controller: "HomeController"});
-        this.route("pdf",{path:"/pdf",controller:"PdfController"});
+        this.route("home", {path: "/", controller: "HomeController"});
+	this.route("about", {path: "/about", controller:"AboutController"});
+	this.route("pdf",{path:"/pdf/:id",controller:"PdfController"});
+
+        this.route("adminhome", {path: "/admin_page/admin_home", controller:  "AdminHomeController"});
+        this.route("addpdf", {path: "/admin_page/add_pdf", controller: "AddPdfController"});
+        this.route("addvideo", {path: "/admin_page/add_video", controller: "AddVideoController"});
+        this.route("updatepdf", {path: "/admin_page/update_pdf", controller: "UpdatePdfController"});
 });

@@ -1,11 +1,14 @@
 this.PdfController = RouteController.extend({
-	template: "pdf",
-	
+    template: "pdf",
 
-	yieldTemplates: {
-		/*YIELD_TEMPLATES*/
-	},
-       waitOn: function () {
-return Meteor.subscribe('pdfdetails',this.params.id)
-}
+    yieldTemplates: {
+        /*YIELD_TEMPLATES*/
+    },
+    action: function () {
+
+        this.render('pdf');
+    },
+    waitOn: function () {
+        return Meteor.subscribe('pdfdetail', this.params.id);
+    }
 });
