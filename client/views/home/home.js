@@ -43,15 +43,6 @@ Template.HomeSection1.helpers({
 
 });
 
-
-Template.HomeSection1ThreeColumns.events({
-
-});
-
-Template.HomeSection1ThreeColumns.helpers({
-
-});
-
 Template.HomeSection2.events({
 
 });

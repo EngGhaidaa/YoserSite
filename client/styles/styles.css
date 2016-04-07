@@ -45,5 +45,6 @@ html{
  float: right;
 }
 #section-welcome{
-	color: #d9534f;
+	color: white;
+	text-shadow:10px 6px 4px #7a43b6;
 }
