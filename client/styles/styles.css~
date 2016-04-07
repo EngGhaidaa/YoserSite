@@ -35,11 +35,12 @@ section .large-icon {
         float:right;
 }
 
-.col-md-3 {
+
+.col-md-5 {
         float:right;
 }
 
-.col-md-2 {
-        float:right;
+section-welcome {
+                 text-align: center;
 }
 

@@ -23,7 +23,14 @@ Router.onBeforeAction(function() {
 });
 
 Router.map(function () {
-	//this.route("about", {path: "/admin_page/add_pdf", controller: "PdfController"});
-        this.route("about", {path: "/admin_page/add_vedio", controller: "VedioController"}); 
-	this.route("home", {path: "/", controller: "HomeController"});
+            this.route("home", {path: "/", controller: "HomeController"}); 
+            this.route("about", {path: "/", controller: "AboutController"}); 
+	    this.route("addpdf", {path: "/admin_page/add_pdf", controller: "AddPdfController"});
+            this.route("addvedio", {path: "/admin_page/add_vedio", controller: "AddVedioController"});
+            this.route("updatepdf", {path: "/admin_page/update_pdf", controller: "UpdatePdfController"});
+            this.route("updatevedio", {path: "/admin_page/update_vedio", controller: "UpdateVedioController"});
+ this.route("adminhome", {path: "/admin_page/admin_home", controller: "AdminHomeController"});
+           
+ 
+	
 });

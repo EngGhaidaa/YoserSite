@@ -1,4 +1,4 @@
-this.VedioController = RouteController.extend({
+this.AddVedioController = RouteController.extend({
     template: "addvedio",
 
 
