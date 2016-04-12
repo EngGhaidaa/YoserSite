@@ -42,10 +42,10 @@
 </template>
 
 <template name="HomeSection1Content1">
-	{{#markdown}}
+	<!--{{#markdown}}-->
 <h1 id="section1">آخر التحديثات</h1>
         شريط متحرك بأحدث الدروس والفيديوهات
-{{/markdown}}
+<!--{{/markdown}}-->
 </template>
 <template name="HomeSection2" id="section2">
 	<section class="bg-blue">
@@ -60,14 +60,14 @@
 </template>
 
 <template name="HomeSection2Content2">
-	{{#markdown}}
+	<!--{{#markdown}}-->
 <h1 id="section2">PDF</h1>
         {{#each pdf}}
 <br>
             <a href="{{pathFor 'pdf' id=this._id}}"> {{title}}
             </a>
         {{/each}}
-{{/markdown}}
+<!--{{/markdown}}-->
 </template>
 
 <template name="HomeSection3" id="section3">
@@ -83,13 +83,12 @@
 </template>
 
 <template name="HomeSection3Content3">
-	{{#markdown}}
+	<!--{{#markdown}}-->
 <h1 id="section3">Video</h1>
 <!--  ToDo
 show viedo title
  -->
-
-{{/markdown}}
+<!--{{/markdown}}-->
 </template>
 
 <template name="HomeSectionContact" id="section_contact">
@@ -105,9 +104,10 @@ show viedo title
 </template>
 
 <template name="HomeSectionContactContentContact">
-	{{#markdown}}<h1 id="section-contact">Contact Us</h1>
+	<!--{{#markdown}}-->
+        <h1 id="section-contact">Contact Us</h1>
 
-{{/markdown}}
+<!--{{/markdown}}-->
 </template>
 
 <template name="HomeSectionContactContact">
