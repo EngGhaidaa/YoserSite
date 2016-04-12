@@ -1,4 +1,5 @@
-Template.addvedio.events({
+//فاضي 
+/*Template.addvedio.events({
 "change .file-upload-input": function(event, template){
    var func = this;
    var file = event.currentTarget.files[0];
@@ -8,4 +9,4 @@ Template.addvedio.events({
    };
    reader.readAsBinaryString(file);
 }
-});
+});*/

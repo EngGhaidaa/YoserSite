@@ -11,4 +11,3 @@ AutoForm.hooks({
          }
      }
  });
-

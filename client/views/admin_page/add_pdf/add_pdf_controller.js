@@ -5,6 +5,5 @@ this.PdfController = RouteController.extend({
     yieldTemplates: {
         /*YIELD_TEMPLATES*/
     }
-
 });
 

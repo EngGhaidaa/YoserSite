@@ -8,8 +8,9 @@ Router.configure({
 
 var freeRoutes = [
 	"home",
-        "about",
+    "about",
 	"pdf"
+
 ];
 
 Router.onBeforeAction(function() {
@@ -24,9 +25,13 @@ Router.onBeforeAction(function() {
 });
 
 Router.map(function () {
-	this.route("about", {path: "/admin_page/add_pdf", controller: "PdfController"});
-        
 	this.route("home", {path: "/", controller: "HomeController"});
+	this.route("about", {path: "/about", controller: "AboutController"});    
 	this.route("pdf",{path:"/pdf/:id",controller:"PdfController"});
-//this.route("about", {path: "/admin_page/add_vedio", controller: "VedioController"}); 
+
+    this.route("adminhome", {path: "/admin_page/admin_home", controller: "AdminHomeController"}); 
+    this.route("addpdf", {path: "/admin_page/add_pdf", controller: "AddPdfController"});
+    this.route("addvideo",{path:"/admin_page/add_video",controller: "AddVideoController"});
+    this.route("updatepdf",{path: "/admin_page/update_pdf",controller: "UpdatepdfController"});
+    this.route("updatevideo", {path: "/admin_page/update_video",controller: "UpdateVideoController"});
 });
