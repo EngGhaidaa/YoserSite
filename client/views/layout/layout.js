@@ -1,38 +1,5 @@
 //ToDo read code
-//Template.layout.rendered = function () {
-//    //scroll to anchor
-//    $('body').on('click', 'a', function (e) {
-//        var href = $(this).attr("href");
-//       // var hash = href.substring(1);
-//        if (!href) {
-//            return href;
-//        }
-//        if (href.length > 1 && href.charAt(0) == "#")
-//        {
-//            var hash = href.substring(1);
-//            //substring (cut)
-//            if (hash)
-//            {
-//                e.preventDefault();
-//                //إيقاف جميع العمليات لانهي عمليتي بخبرك شو تعمل
-//               var offset = $('*[id="' + hash + '"]');
-//
-//                if (offset)
-//                {
-//                   $('html,body').animate({scrollTop: offset.top}, 400);
-//
-//                }
-//            }
-//        }
-//        else {
-//            if (href.indexOf("http://") != 0 && href.indexOf("https://") != 0 && href.indexOf("#") != 0)
-//            {
-//                $('html,body').scrollTop();
-//            }
-//        }
-//    });
-//    /*TEMPLATE_RENDERED_CODE*/
-//};
+
 Template.layout.rendered = function() {
     // scroll to anchor
     $('body').on('click', 'a', function(e) {
@@ -40,11 +7,10 @@ Template.layout.rendered = function() {
         if(!href) {
             return;
         }
-        if(href.length > 1 && href.charAt(0) == "#") {
+        if(href.length > 1 && href.charAt(0) != "#") {
             var hash = href.substring(1);
             if(hash) {
                 e.preventDefault();
-
                 var offset = $('*[id="' + hash + '"]').offset();
 
                 if (offset) {

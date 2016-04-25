@@ -8,9 +8,8 @@ Router.configure({
 
 var freeRoutes = [
 	"home",
-        "about",
-        "pdf"
-
+	"about",
+	"pdf"
 ];
 
 Router.onBeforeAction(function() {
@@ -25,13 +24,13 @@ Router.onBeforeAction(function() {
 });
 
 Router.map(function () {
-        this.route("home", {path: "/", controller: "HomeController"});
+	this.route("home", {path: "/", controller: "HomeController"});
 	this.route("about", {path: "/about", controller:"AboutController"});
 	this.route("pdf",{path:"/pdf/:id",controller:"PdfController"});
 
-        this.route("adminhome", {path: "/admin_page/admin_home", controller:  "AdminHomeController"});
-        this.route("addpdf", {path: "/admin_page/add_pdf", controller: "AddPdfController"});
-        this.route("addvideo", {path: "/admin_page/add_video", controller: "AddVideoController"});
-        this.route("updatepdf", {path: "/admin_page/update_pdf", controller: "UpdatePdfController"});
-        this.route("updatevideo", {path: "/admin_page/update_video", controller: "UpdateVideoController"});
+	this.route("adminhome", {path: "/admin_page/admin_home", controller:  "AdminHomeController"});
+	this.route("addpdf", {path: "/admin_page/add_pdf", controller: "AddPdfController"});
+	this.route("addvideo", {path: "/admin_page/add_video", controller: "AddVideoController"});
+	this.route("updatepdf", {path: "/admin_page/update_pdf", controller: "UpdatePdfController"});
+	this.route("updatevideo", {path: "/admin_page/update_video", controller: "UpdateVideoController"});
 });

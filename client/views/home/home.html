@@ -61,12 +61,27 @@
 
 <template name="HomeSection2Content2">
 	<!--{{#markdown}}-->
-<h1 id="section2">PDF</h1>
-        {{#each pdf}}
-<br>
-            <a href="{{pathFor 'pdf' id=this._id}}"> {{title}}
-            </a>
-        {{/each}}
+        <h1 id="section2">PDF</h1>
+    <div class="row text-center">
+        <div class='col-md-offset-2 col-md-8'>
+            <div class="thumbnail">
+                {{#each pdf}}
+                <img src="/images/pdf.jpg">
+                <p><strong>
+                    <a href="{{pathFor 'pdf' id=this._id}}"> {{title}}
+                    </a>
+                </strong></p>
+            {{/each}}
+            </div>
+        </div>
+    </div>
+        <!---->
+        <!--<div class="col-md-4">-->
+            <!--{{#each pdf}}-->
+                <!--<a href="{{pathFor 'pdf' id=this._id}}"> {{title}}-->
+                <!--</a>-->
+            <!--{{/each}}-->
+        <!--</div>-->
 <!--{{/markdown}}-->
 </template>
 

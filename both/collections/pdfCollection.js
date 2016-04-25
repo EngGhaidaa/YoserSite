@@ -47,19 +47,16 @@ Pdfs.allow
   insert: function (doc)
  {
        return true;
- }
+ },
+    update: function ( doc, fields, modifier) {
+        return true;
+    },
+
+    remove: function ( doc) {
+        return true;
+    }
+
 });
-
-
-   // update: function (userId, doc, fields, modifier) {
-     //   return true;
-    //},
-
-    //remove: function (userId, doc) {
-      //  return true;
-   // }
-
-//});
 
 
 
